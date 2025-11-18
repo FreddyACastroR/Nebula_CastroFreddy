@@ -1,0 +1,87 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Nébula music</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <%@ include file="WEB-INF/fragments/navbar.jspf" %>
+        <header>
+            <img src="./imgs/cover.jpg" />
+            <h1>Tu música en la <span class="highlighted">nube</span> y en tu <span class="highlighted"> espacio</span>.</h1>
+        </header>
+        <main>
+            <section id="news">
+                <article class="item">
+                    <img
+                        src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO04adET-default.jpg"
+                        width="250px"
+                        height="250px" />
+                    <h3 class="yellow">This is natanael cano</h3>
+                    <p>
+                        Las mejores canciones de el regional siereño , corridos tumbados.<br />
+                        Amor tubado , Nata Kong.
+                    </p>
+                </article>
+                <article class="item">
+                    <img
+                        src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2Aq9I4-default.jpg"
+                        width="250px"
+                        height="250px" />
+                    <h3 class="yellow"><strong>This is BadBunny</strong></h3>
+                    <p>
+                        Descubre las nuevas canciones de <em>BadBunny</em><br />
+                        Perreo hasta el suelo!! , escucha ya tu musica favorita
+                    </p>
+                </article>
+                <article class="item">
+                    <img
+                        src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4BaAkp-default.jpg"
+                        width="250px"
+                        height="250px" />
+                    <h3 class="yellow">This is Artic Monkeys</h3>
+                    <p>
+                        The newest songs from your favorite artists <br />
+                        The best of the group
+                    </p>
+                </article>
+                <article class="item">
+                    <img src="https://i.scdn.co/image/ab67706f00000003b0c066c63921e8d43068982c" width="250px" height="250px" />
+                    <h3 class="yellow">This is Taylor Swift</h3>
+                    <p>
+                        The newest songs from your favorite artists <br />
+                        The best of the group
+                    </p>
+                </article>
+                <article class="item">
+                    <img
+                        src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO16Czqq-default.jpg"
+                        width="250px"
+                        height="250px" />
+                    <h3 class="yellow">This is Kevin AMF</h3>
+                    <p>
+                        The newest songs from your favorite artists <br />
+                        The best of the group
+                    </p>
+                </article>
+                <article class="item">
+                    <img
+                        src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0HaZQk-default.jpg"
+                        width="250px"
+                        height="250px" />
+                    <h3 class="yellow">This is Natalia Lafourcade</h3>
+                    <p>
+                        The newest songs from your favorite artists <br />
+                        The best of the group
+                    </p>
+                </article>
+            </section>
+        </main>
+        <%@ include file="WEB-INF/fragments/footer.jspf" %>
+    </body>
+</html>

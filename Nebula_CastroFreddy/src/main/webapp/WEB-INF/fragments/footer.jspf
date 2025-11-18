@@ -1,0 +1,11 @@
+<footer>
+    <div class="redes">
+        <span>Siguenos en nuestras redes sociales</span>
+        <div>
+            <a href="https://www.instagram.com/" target="_blank"> Instagram</a>
+            <a href="https://www.facebook.com/" target="_blank"> Facebook</a>
+            <a href="https://www.tiktok.com/es/" target="_blank"> Tiktok</a>
+        </div>
+    </div>
+    <p class="copyright">Copyright Nébula 2025.</p>
+</footer>
