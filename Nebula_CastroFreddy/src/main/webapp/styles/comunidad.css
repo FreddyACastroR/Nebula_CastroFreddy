@@ -1,0 +1,88 @@
+@import url(global.css);
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+nav ul {
+  display: inline;
+  color: var(--nav-links);
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--nav-links);
+  padding: 2px;
+  font-weight: 800;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+.header img {
+  object-fit: cover;
+  height: 40vh;
+  width: 100vw;
+}
+.header h1 {
+  position: absolute;
+  color: white;
+  bottom: 0px;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+  padding: 0 20px 0px ;
+}
+.tablaUsuarios {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: var(--fondo-registro);
+  color: var(--links-color-dark);
+  text-align: center;
+}
+.texto {
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  padding: 50px 30px 0px 20px;
+}
+.tablaUsuarios img {
+  width: 80px;
+  height: 80px;
+}
+.cuerpoTabla {
+    color: white;
+}
+.cuerpoTabla td span {
+    display: block;
+    font-size: 0.8em;
+    text-decoration: underline;
+    color: var(--links-color-dark);
+}
+.cuerpoTabla tr:nth-child(even) {
+    background-color: rgb(92, 139, 183);
+}
+.redes{
+    color: var(--links-color-dark);
+    text-align: center;
+    padding: 10px;
+}
+.copyright{
+    text-align: center;
+    color:white;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}

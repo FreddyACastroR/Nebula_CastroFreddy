@@ -1,0 +1,28 @@
+.banner {
+  height: 10rem;
+}
+.banner img {
+  height: 10rem;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tittle-section {
+  text-align: center;
+}
+.planes {
+  display: flex;
+  gap: 1rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+}

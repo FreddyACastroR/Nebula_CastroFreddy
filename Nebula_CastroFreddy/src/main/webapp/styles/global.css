@@ -1,0 +1,21 @@
+
+:root{
+    --bg-color-dark: #131200;
+    --text-color-dark: #EDF2F4;
+    --links-color-dark: #EFBDEB;
+    --links-color-hover: #8D91C7;
+    --nav-links: #8D3FD1;
+    --highlight: #EDF67D;
+    --fondo-registro:#3E5577;
+    --resaltado-amarillo:#EDF67D;
+    --resaltado-rojo:#E27E7C;
+}
+
+body,main,h3{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: var(--links-color-dark);
+    text-decoration: none;
+}
